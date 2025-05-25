@@ -1,0 +1,37 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet"crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css" integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- favico related -->
+  <!-- https://favicon.io/-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Meta Tags Generated with https://metatags.io -->
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="KCD Istanbul 2025" />
+  <meta name="description" content="Join us for a journey into the cloud native innovation at KCD Istanbul!" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://2025.kcd.istanbul/" />
+  <meta property="og:title" content="KCD Istanbul 2025" />
+  <meta property="og:description" content="Join us for a journey into the cloud native innovation at KCD Istanbul!" />
+  <meta property="og:image" content="https://2025.kcd.istanbul/linkedin-card-image.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="KCD Istanbul 2025">
+  <meta name="twitter:description" content="Join us for a journey into the cloud native innovation at KCD Istanbul!">
+  <meta name="twitter:image" content="https://2025.kcd.istanbul/twitter-card-image.png?v1" >
+
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  {{ $title := print .Site.Title " | " .Title }}
+  {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+  <title>{{ $title }}</title>
+</head>

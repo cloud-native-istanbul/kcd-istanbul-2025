@@ -1,3 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://hugo-quickstart-template.netlify.com'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'KCD Istanbul 2025'
+timeout = 75000
