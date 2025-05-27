@@ -18,10 +18,10 @@
   {"image": "013.jpg",     "cols": 3,     "rows": 2},
   {"image": "018.jpg",     "cols": 1,     "rows": 2},
 
-  {"image": "015.jpg",     "cols": 2,     "rows": 2},
-  {"image": "011.jpg",     "cols": 2,     "rows": 2},
+  {"image": "015.jpg",     "cols": 1,     "rows": 2},
+  {"image": "011.jpg",     "cols": 3,     "rows": 2},
 
-  {"image": "016.jpg",     "cols": 2,     "rows": 2},
+  {"image": "011_b.jpg",   "cols": 2,     "rows": 2},
   {"image": "017.jpg",     "cols": 2,     "rows": 1},
   {"image": "014.jpg",     "cols": 2,     "rows": 1},
 
